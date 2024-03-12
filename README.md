@@ -9,7 +9,6 @@ The setup for Waterbirds and CelebA are exactly the same as [here](https://githu
 Run 
 ```
 pip install -r requirements.txt
-
 ```
 
 A smoother alternative is to pull our image from Docker:
