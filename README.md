@@ -17,4 +17,29 @@ A smoother alternative is to pull our image from Docker:
 asl021/whacamole:latest
 ```
 
+## Running ExMap
+
+### C-MNIST
+
+```
+bash
+```
+
+### Waterbirds
+
+```
+bash
+```
+
+### CelebA
+
+```
+bash
+```
+
+### UrbanCars
+
+```
+bash
+```
 
