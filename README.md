@@ -23,7 +23,7 @@ asl021/whacamole:latest
 ## Dataset access
 
 ### CMNIST
-The Colored MNIST dataset does not need to be installed as it downloads the MNIST dataset automatically when running. The dataset is build following the procedure described in ["Invariant Risk Mnimizaion"](https://arxiv.org/abs/1907.02893) .
+The Colored MNIST dataset does not need to be installed as it downloads the MNIST dataset automatically when running. The dataset is build following the procedure described in ["Invariant Risk Minimization"](https://arxiv.org/abs/1907.02893) .
 
 ### Waterbirds
 To acquire the Waterbirds dataset we use the [following instructions](https://github.com/kohpangwei/group_DRO#waterbirds) from the group DRO code, where we install the tarball of the dataset.
