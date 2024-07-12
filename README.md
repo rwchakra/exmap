@@ -20,31 +20,37 @@ A smoother alternative is to pull our image from Docker:
 asl021/whacamole:latest
 ```
 
-## Running ExMap
+## Dataset access
 
-### C-MNIST
-
-```
-bash
-```
+### CMNIST
+The Colored MNIST dataset does not need to be installed as it downloads the MNIST dataset automatically when running. The dataset is build following the procedure described in ["Invariant Risk Mnimizaion"](https://arxiv.org/abs/1907.02893) .
 
 ### Waterbirds
+To acquire the Waterbirds dataset we use the [following instructions](https://github.com/kohpangwei/group_DRO#waterbirds) from the group DRO code, where we install the tarball of the dataset.
+
+
+### Foreground-only Waterbirds
+In addition to the installed Waterbirds dataset, we download the segmentation masks for the birds (foreground objects) from [here](https://data.caltech.edu/records/w9d68-gec53). We then merge the directories with the original images (of type ".jpg") and the directories with the segmentation masks (of type ".png"). Below is an example of how the images are stored in the final directory:
 
 ```
-bash
+waterbird_complete95_forest2water2\001.Black_footed_Albatross\Black_Footed_Albatross_0001_796111.jpg
+waterbird_complete95_forest2water2\001.Black_footed_Albatross\Black_Footed_Albatross_0001_796111.png
 ```
 
 ### CelebA
+For CelebA we follow the [instructions](https://github.com/kohpangwei/group_DRO#celeba) from the group DRO code. Additionally, we copy the `celeba_metadata.csv` from the DFR code, described [here](https://github.com/PolinaKirichenko/deep_feature_reweighting#data-access).
 
-```
-bash
-```
+### Urbancars
+As of this time, the Urbancars dataset is not publicly available. It was made available to us after contacting the Whac-a-mole paper's authors.
 
-### UrbanCars
 
-```
-bash
-```
+### Running on each dataset
+
+ERM, ExMap, and DFR can be run on each of the datasets by navigating to scripts folder and running the particular shell script (e.g. bash run_waterbirds.sh). This will automatically run all the methods on the particular dataset. 
+
+## Save Models
+
+If you wish to have access to our saved models on each dataset for better reproducibility, please reach out at rwiddhi.chakraborty@uit.no.
 
 ## References
 
