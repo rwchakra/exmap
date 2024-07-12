@@ -41,7 +41,7 @@ waterbird_complete95_forest2water2\001.Black_footed_Albatross\Black_Footed_Albat
 For CelebA we follow the [instructions](https://github.com/kohpangwei/group_DRO#celeba) from the group DRO code. Additionally, we copy the `celeba_metadata.csv` from the DFR code, described [here](https://github.com/PolinaKirichenko/deep_feature_reweighting#data-access).
 
 ### Urbancars
-As of this time, the Urbancars dataset is not publicly available. It was made available to us after contacting the Whac-a-mole paper's authors.
+As of this time, the Urbancars dataset is not publicly available. It was made available to us after contacting the Whac-a-mole paper's authors. However, clear instructions to generate the dataset are described [here] (https://github.com/facebookresearch/Whac-A-Mole/tree/main).
 
 
 ### Running on each dataset
