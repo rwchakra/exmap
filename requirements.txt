@@ -1,0 +1,9 @@
+torch
+torchvision
+Pillow
+pytorch-transformers
+numpy
+tqdm
+zennit
+umap
+sklearn
