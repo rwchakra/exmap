@@ -58,3 +58,18 @@ If you wish to have access to our saved models on each dataset for better reprod
 
 [2] Li, Zhiheng, I. Evtimov, Albert Gordo, Caner Hazirbas, Tal Hassner, Cristian Cantón Ferrer, Chenliang Xu and Mark Ibrahim. “A Whac-A-Mole Dilemma: Shortcuts Come in Multiples Where Mitigating One Amplifies Others.” 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2022): 20071-20082.
 
+## Citation
+
+If you found our work useful, please consider citing it:
+
+```
+@article{Chakraborty2024ExMapLE,
+  title={ExMap: Leveraging Explainability Heatmaps for Unsupervised Group Robustness to Spurious Correlations},
+  author={Rwiddhi Chakraborty and Adrian Sletten and Michael C. Kampffmeyer},
+  journal={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024},
+  pages={12017-12026},
+  url={https://api.semanticscholar.org/CorpusID:268554139}
+}
+```
+
